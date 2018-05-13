@@ -1,0 +1,36 @@
+/*Autor: Hamza Akiour (https://hamza.es)*/
+/*GENERAL*/
+#context {
+	margin: 3% 5% 6% 5%;
+}
+.jumbotron {
+	margin: 1% 20% 0px 20%;
+}
+/*TEXT*/
+.header {
+    font-size: 60px !important;
+   }
+.title {
+	font-size: 20px;
+}
+/*IMAGES*/
+.thumbnail img{
+    width: 100%;
+}
+/*Zoom efect | Font: http://alt-web.com/TUTORIALS/?id=bootstrap_simple_image_zoom*/
+.zoom {       
+transition: all 0.55s ease-in-out;       
+}     
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+transform: scale(1.007);    
+position:relative;      
+z-index:100;  
+}
+/*Responsive*/
+@media all and (max-width: 500px) { /* screen size until 500px */
+	   .jumbotron {
+		margin: 0;
+		}
+    }

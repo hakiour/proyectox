@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CATALOG>
-  <NOTICIA>
-    <TITULO>AAAAAAAAAAAAAAA</TITULO>
-    <SUBTITULO>BBBBBBBBBBBBBBBBBBBBBBBB</SUBTITULO>
-    <IMAGEN>portatil.png</IMAGEN>
-    <DESCRIPCION>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</DESCRIPCION>
-    <LINK>hamza.es</LINK>
-  </NOTICIA>
-  <NOTICIA>
-    <TITULO>Empire Burlesque</TITULO>
-    <SUBTITULO>Bob Dylan</SUBTITULO>
-    <IMAGEN>USA</IMAGEN>
-    <DESCRIPCION>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</DESCRIPCION>
-    <LINK>Columbia</LINK>
-  </NOTICIA>
-  <NOTICIA>
-    <TITULO>Empire Burlesque</TITULO>
-    <SUBTITULO>Bob Dylan</SUBTITULO>
-    <IMAGEN>USA</IMAGEN>
-    <DESCRIPCION>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</DESCRIPCION>
-    <LINK>Columbia</LINK>
-  </NOTICIA>
-  <NOTICIA>
-    <TITULO>Empire Burlesque</TITULO>
-    <SUBTITULO>Bob Dylan</SUBTITULO>
-    <IMAGEN>USA</IMAGEN>
-    <DESCRIPCION>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</DESCRIPCION>
-    <LINK>Columbia</LINK>
-  </NOTICIA>
-</CATALOG>
+<!DOCTYPE noticias SYSTEM "noticias.dtd">
+<noticias>
+  <noticia>
+    <titulo>AAAAAAAAAAAAAAA</titulo>
+    <subtitulo>BBBBBBBBBBBBBBBBBBBBBBBB</subtitulo>
+    <imagen>portatil.png</imagen>
+    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
+    <link>hamza.es</link>
+  </noticia>
+  <noticia>
+    <titulo>Empire Burlesque</titulo>
+    <subtitulo>Bob Dylan</subtitulo>
+    <imagen>USA</imagen>
+    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
+    <link>Columbia</link>
+  </noticia>
+  <noticia>
+    <titulo>Empire Burlesque</titulo>
+    <subtitulo>Bob Dylan</subtitulo>
+    <imagen>USA</imagen>
+    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
+    <link>Columbia</link>
+  </noticia>
+  <noticia>
+    <titulo>Empire Burlesque</titulo>
+    <subtitulo>Bob Dylan</subtitulo>
+    <imagen>USA</imagen>
+    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
+    <link>Columbia</link>
+  </noticia>
+</noticias>

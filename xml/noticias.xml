@@ -2,18 +2,18 @@
 <!DOCTYPE noticias SYSTEM "noticias.dtd">
 <noticias>
   <noticia>
+    <titulo>¿Por qué un DTD?</titulo>
+    <subtitulo>Asegurando el correcto formato de nuestras noticias.</subtitulo>
+    <imagen>dtd.png</imagen>
+    <descripcion>Para asegurar que todos nuestros empleados siguen un formato adecuado a la hora de crear nuevas noticias, se ha creado un DTD que valida el xml, permitiendo que un usuario sin conocimientos avanzados pueda añadir noticias, sabiendo que si se equivoca, el DTD le indicara donde ha fallado.</descripcion>
+    <link>dtd.html</link>
+  </noticia>
+  <noticia>
     <titulo>AAAAAAAAAAAAAAA</titulo>
     <subtitulo>BBBBBBBBBBBBBBBBBBBBBBBB</subtitulo>
     <imagen>portatil.png</imagen>
     <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
     <link>noticia-1.html</link>
-  </noticia>
-  <noticia>
-    <titulo>Empire Burlesque</titulo>
-    <subtitulo>Bob Dylan</subtitulo>
-    <imagen>USA</imagen>
-    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
-    <link>Columbia</link>
   </noticia>
   <noticia>
     <titulo>Empire Burlesque</titulo>

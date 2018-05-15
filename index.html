@@ -11,7 +11,7 @@
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Fuentes -->
@@ -40,15 +40,15 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="../index.html"><i class="fas fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-newspaper"></i> Noticiero
               </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #e6ffe6;">
-            <a class="dropdown-item" href="noticiero.html">Noticias</a>
-            <a class="dropdown-item" href="../xml/rss.xml">RSS</a>
+            <a class="dropdown-item" href="html/noticiero.html">Noticias</a>
+            <a class="dropdown-item" href="xml/rss.xml">RSS</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -56,9 +56,9 @@
           Servicios
         </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: #e6ffe6;">
-            <a class="dropdown-item" href="#">Item 1</a>
-            <a class="dropdown-item" href="#">Item 2</a>
-            <a class="dropdown-item" href="#">Item 3</a>
+            <a class="dropdown-item" href="#section1">Item 1</a>
+            <a class="dropdown-item" href="#section2">Item 2</a>
+            <a class="dropdown-item" href="#section3">Item 3</a>
           </div>
         </li>
       </ul>
@@ -72,16 +72,45 @@
       </ul>
     </div>
   </nav>
-  <div class="container-fluid">
-      <div id="ultimasNoticias"></div>
+  <div class="parallax">
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Proyecto X</h1>
+        <p class="lead">Ola k ase</p>
+      </div>
+    </div>
   </div>
-  </div>
-  </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  <!-- Cargamos las noticias del noticiero-->
-  <script src="../js/noticiero.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="section1">
+          <h1>Section 1</h1>
+          <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="section2">
+          <h1>Section 2</h1>
+          <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div id="section3">
+          <h1>Section 3</h1>
+          <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam error illo iste magnam nihil, quod accusamus magni aut aspernatur aliquam id autem at recusandae et architecto. Repellat pariatur ipsam dolorem.</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax2"></div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>

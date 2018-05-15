@@ -81,3 +81,27 @@ p {
     background-size: cover;
 }
 
+#contacto {
+  text-align: center;
+  padding: 20px 40px 20px 40px;
+}
+
+
+/* Botón volver arriba */
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 0px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(235, 235, 235, 0.80);
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+
+
+.back-to-top:hover {    
+    background-color: rgba(135, 135, 135, 0.50);
+}

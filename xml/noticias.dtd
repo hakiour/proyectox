@@ -1,7 +1,7 @@
 <!DOCTYPE noticias
 [
 <!ELEMENT noticias (noticia+)>
-<!ELEMENT noticias (titulo,subtitulo,imagen,descripcion,link)>
+<!ELEMENT noticia (titulo,subtitulo,imagen,descripcion,link)>
 <!ELEMENT titulo (#PCDATA)>
 <!ELEMENT subtitulo (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>

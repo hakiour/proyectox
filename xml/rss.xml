@@ -3,17 +3,22 @@
 
 <channel>
   <title>RSS proyectoX</title>
-  <link>-</link>
-  <description>Las últimas noticias</description>
+  <link>proyectoX.loqum.tech</link>
+  <description>Nunca fue tan facil estar al día, con proyectoX podrás enterarte de las últimas noticias.</description>
   <item>
-    <title>Noticia 1</title>
-    <link>-</link>
-    <description>Descripcion noticia 1</description>
+    <title>¿Por qué un DTD?</title>
+    <link>proyectoX.loqum.tech/noticias/noticia/dtd.html</link>
+    <description>Para asegurar que todos nuestros empleados siguen un formato adecuado a la hora de crear nuevas noticias, se ha creado un DTD que valida el xml, permitiendo que un usuario sin conocimientos avanzados pueda añadir noticias, sabiendo que si se equivoca, el DTD le indicara donde ha fallado.</description>
   </item>
   <item>
-    <title>Noticia 2</title>
-    <link>-</link>
-    <description>Descripcion noticia 2</description>
+    <title>¿Qué es la tecnología Java y para qué lo necesitamos? </title>
+    <link>proyectoX.loqum.tech/noticias/noticia/queEsJava.html</link>
+    <description>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems.</description>
+  </item>
+  <item>
+    <title>Conceptos útiles y glosario de definiciones</title>
+    <link>proyectoX.loqum.tech/noticias/noticia/conceptosUtiles.html</link>
+    <description> Definición de los diferentes conceptos de Java que cualquier usuario que pretende adentrarse en este maravilloso mundo...</description>
   </item>
   </channel>
 

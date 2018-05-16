@@ -4,14 +4,23 @@
 }
 
 /* Atributos texto */
-h2 {
-  font-family: "Nixie One", monospace;
+h1 {
+  font-family: "Lato", sans-serif;
   font-weight: bold;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  text-align: left;
 }
 
 p {
   text-align: justify;
-  font-family: 'Lato';
+  font-family: 'Roboto Slab', serif;
 }
 
 #contacto {

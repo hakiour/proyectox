@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>RSS proyectoX</title>
+  <link>-</link>
+  <description>Las últimas noticias</description>
+  <item>
+    <title>Noticia 1</title>
+    <link>-</link>
+    <description>Descripcion noticia 1</description>
+  </item>
+  <item>
+    <title>Noticia 2</title>
+    <link>-</link>
+    <description>Descripcion noticia 2</description>
+  </item>
+  </channel>
+
+</rss> 

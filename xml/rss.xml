@@ -2,22 +2,22 @@
 <rss version="2.0">
 
 <channel>
-  <title>RSS proyectoX</title>
-  <link>proyectoX.loqum.tech</link>
-  <description>Nunca fue tan facil estar al día, con proyectoX podrás enterarte de las últimas noticias.</description>
+  <title>RSS HamRub</title>
+  <link>HamRub.loqum.tech</link>
+  <description>Nunca fue tan facil estar al día, con HamRub podrás enterarte de las últimas noticias.</description>
   <item>
     <title>¿Por qué un DTD?</title>
-    <link>proyectoX.loqum.tech/noticias/noticia/dtd.html</link>
+    <link>HamRub.loqum.tech/noticias/noticia/dtd.html</link>
     <description>Para asegurar que todos nuestros empleados siguen un formato adecuado a la hora de crear nuevas noticias, se ha creado un DTD que valida el xml, permitiendo que un usuario sin conocimientos avanzados pueda añadir noticias, sabiendo que si se equivoca, el DTD le indicara donde ha fallado.</description>
   </item>
   <item>
     <title>¿Qué es la tecnología Java y para qué lo necesitamos? </title>
-    <link>proyectoX.loqum.tech/noticias/noticia/queEsJava.html</link>
+    <link>HamRub.loqum.tech/noticias/noticia/queEsJava.html</link>
     <description>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems.</description>
   </item>
   <item>
     <title>Conceptos útiles y glosario de definiciones</title>
-    <link>proyectoX.loqum.tech/noticias/noticia/conceptosUtiles.html</link>
+    <link>HamRub.loqum.tech/noticias/noticia/conceptosUtiles.html</link>
     <description> Definición de los diferentes conceptos de Java que cualquier usuario que pretende adentrarse en este maravilloso mundo...</description>
   </item>
   </channel>

@@ -9,24 +9,17 @@
     <link>dtd.html</link>
   </noticia>
   <noticia>
-    <titulo>AAAAAAAAAAAAAAA</titulo>
-    <subtitulo>BBBBBBBBBBBBBBBBBBBBBBBB</subtitulo>
-    <imagen>portatil.png</imagen>
-    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
-    <link>noticia-1.html</link>
+    <titulo>¿Qué es la tecnología Java y para qué lo necesitamos?</titulo>
+    <subtitulo>Java como lenguaje de programación</subtitulo>
+    <imagen>queEsJava.png</imagen>
+    <descripcion>Java es un lenguaje de programación y una plataforma informática comercializada por primera vez en 1995 por Sun Microsystems.</descripcion>
+    <link>queEsJava.html</link>
   </noticia>
   <noticia>
-    <titulo>Empire Burlesque</titulo>
-    <subtitulo>Bob Dylan</subtitulo>
-    <imagen>USA</imagen>
-    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
-    <link>Columbia</link>
-  </noticia>
-  <noticia>
-    <titulo>Empire Burlesque</titulo>
-    <subtitulo>Bob Dylan</subtitulo>
-    <imagen>USA</imagen>
-    <descripcion>Es evidente que el sector del automóvil se encuentra inmerso en una profunda transformación, liderando lo que se ha denominado “Industria 4.0”.</descripcion>
-    <link>Columbia</link>
+    <titulo>Conceptos útiles y glosario de definiciones</titulo>
+    <subtitulo>Conceptos y términos para usuarios inexpertos</subtitulo>
+    <imagen>aprendeJava.png</imagen>
+    <descripcion> Definición de los diferentes conceptos de Java que cualquier usuario que pretende adentrarse en este maravilloso mundo...</descripcion>
+    <link>conceptosUtiles.html</link>
   </noticia>
 </noticias>

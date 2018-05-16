@@ -21,7 +21,7 @@ function cargarContenido(xml) {
     x[i].getElementsByTagName("subtitulo")[0].childNodes[0].nodeValue +
     "</em></h2><div class='thumbnail'><center><img class='img-responsive center-block zoom' src='../images/noticias/" +
     x[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue + "' heigt='100px' id='target3' alt 'Imagen portada'></center>          <div class='caption text-center' id='target4'>            Todos los derechos reservados          </div>        </div></div> <div id='context' class='text-justify'>        <h3 id='target5'>Introducción</h3> "+
-    x[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue + "         <br>        <br>        <citer class='text-left' id='target7'>          ProyectoX 2017 - 2018        </citer>        <h3 class='text-center' id='target8'><a href='noticias/"+
+    x[i].getElementsByTagName("descripcion")[0].childNodes[0].nodeValue + "         <br>        <br>        <citer class='text-left' id='target7'>          HamRub 2017 - 2018        </citer>        <h3 class='text-center' id='target8'><a href='noticias/"+
     x[i].getElementsByTagName("link")[0].childNodes[0].nodeValue + "'> Seguir leyendo </a></h3> </div>     </div>";
 
   }

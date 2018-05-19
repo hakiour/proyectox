@@ -1,0 +1,31 @@
+.servicio-imagen .img-wrap {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.servicio-imagen .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.servicio-imagen .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.servicio-imagen .bottom-wrap {
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+
+.puntuacion { margin-right:10px;
+    color: #333;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.servicio-imagen .price-old {
+    color: #999;
+}

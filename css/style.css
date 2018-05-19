@@ -23,7 +23,7 @@ p {
   font-family: 'Roboto Slab', serif;
 }
 
-#contacto {
+.centrar {
   text-align: center;
   padding: 20px 40px 20px 40px;
 }
@@ -31,7 +31,7 @@ p {
 /* Parallax */
 .parallax {
     /* The image used */
-    background-image: url("../images/parallax_3.jpg");
+    background-image: url("../images/parallax_1.jpg");
 
     /* Set a specific height */
     min-height: 600px; 
@@ -45,7 +45,7 @@ p {
 
 .parallax2 {
     /* The image used */
-    background-image: url("../images/parallax_4.jpg");
+    background-image: url("../images/parallax_2.jpg");
 
     /* Set a specific height */
     min-height: 400px; 
@@ -56,4 +56,19 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/parallax_3.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 

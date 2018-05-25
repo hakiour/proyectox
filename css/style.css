@@ -30,13 +30,8 @@ p {
 
 /* Parallax */
 .parallax {
-    /* The image used */
     background-image: url("../images/parallax_1.jpg");
-
-    /* Set a specific height */
     min-height: 520px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,13 +39,8 @@ p {
 }
 
 .parallax2 {
-    /* The image used */
     background-image: url("../images/parallax_2.jpg");
-
-    /* Set a specific height */
     min-height: 400px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,25 +48,31 @@ p {
 }
 
 .parallax3 {
-    /* The image used */
     background-image: url("../images/parallax_3.jpg");
-
-    /* Set a specific height */
     min-height: 400px; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.parallax4 {
+    background-image: url("../images/parallax_1.jpg");
+    min-height: 14px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:1px solid black;
+}
+/* Fin parallax */
+
 .imagenPresentacion {
   border: 1px solid black;
   padding: 5px;
   margin: 10px 0px 0px 10px;
 }
-
+/*Responsive*/
 @media all and (max-width: 766px) {
   .imagenPresentacion{
     margin-left:0px;
